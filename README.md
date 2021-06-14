@@ -7,7 +7,7 @@ ONNX Runtime Inferencing.
 
 ```python
 git clone --recurse-submodules https://github.com/ethen8181/ort_inference.git
-
+cd ort_inference/
 python3 setup.py install
 ```
 
