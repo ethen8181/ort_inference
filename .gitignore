@@ -1,4 +1,5 @@
 **/.DS_Store
+examples/text_classification.onnx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
