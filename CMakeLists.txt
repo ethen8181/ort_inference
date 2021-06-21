@@ -24,7 +24,7 @@ if(UNIX AND NOT APPLE)
     )
     find_library(
         ONNX_RUNTIME_LIB
-        NAMES libonnxruntime.so # what to look for
+        NAMES libonnxruntime.so.1.8.0 # what to look for
         HINTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/onnxruntime-linux-x64-1.8.0/lib # where to look
         NO_DEFAULT_PATH # do not search system default paths
     )
